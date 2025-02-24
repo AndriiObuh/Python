@@ -9,9 +9,6 @@ result = names_length(names)
 print(result)  # {'Анна': 4, 'Богдан': 6, 'Катерина': 8}
 # Пояснення коду:
 # Використання словникового виразу (dict comprehension):
-# python
-# Копировать
-# Редактировать
 # {name: len(name) for name in names}
 # Для кожного імені у списку створюється ключ name і значення len(name).
 # Приклад роботи функції:
